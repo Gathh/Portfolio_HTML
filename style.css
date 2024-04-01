@@ -18,7 +18,8 @@ body{
 }
 
 .but{
-  font-size: 17px;
+  font-size: 18px;
+  text-align: center;
   height: 55px;
   border: none;
   width: 170px;
@@ -33,13 +34,47 @@ body{
   transition: 1s;
 }
 
+.butM{
+  font-size: 17px;
+  text-align: center;
+  height: 55px;
+  border: none;
+  width: 170px;
+  color: #172026;
+  background-color: #027373;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.butM:hover{
+  background-color: #5FCDD9;
+  color: #172026;
+  transition: 1s;
+}
+
 .t1{
   font-size: 20px;
   margin-left: 25px;
   margin-top: 20px;
-} 
+}
+
+.divimage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.paragrafo{
+  font-size: 23px;
+  width: 60%;
+}
 
 .image{
   height: 400px;
-  margin-left: 65%;
+  margin-right: 70px;
 } 
+
+.trimestres{
+  color: white;
+  margin-left: 25px;
+}
