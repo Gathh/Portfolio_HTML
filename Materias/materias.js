@@ -1,16 +1,16 @@
-function funcaoHome() {
+  function funcaoHome() {
     console.log("Botão 1 foi clicado!");
-    window.location.assign('../index.html');
+    window.location.href="../index.html"
   }
 
   function funcaoTec() {
     console.log("Botão 2 foi clicado!");
-    window.location.assign('../Tecnico/tecnico.html');
+    window.location.href="../Tecnico/tecnico.html"
   }
 
   function funcaoSobre() {
     console.log("Botão 3 foi clicado!");
-    window.location.assign('../Sobre/sobre.html');
+    window.location.href="../Sobre/sobre.html" 
   }
 
   function funcaoMtm() {
@@ -30,4 +30,9 @@ function funcaoHome() {
   function funcaoHist() {
     console.log("Botão 7 foi clicado!");
     window.location.href="./paginas/historia.html"
+  }
+
+  function funcaoVoltar() {
+    console.log("Botão 8 foi clicado!");
+    window.location.href="../materias.html" 
   }

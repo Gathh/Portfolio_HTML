@@ -10,6 +10,7 @@ body{
   min-height: 100vh;
   max-height: 100%;
 }
+
 .barraSuperior{
   background-color: #027373;
   height: 60px;
@@ -28,6 +29,7 @@ body{
   border-radius: 30px;
   cursor: pointer;
 }
+
 .but:hover{
   background-color: #5FCDD9;
   color: #172026;
@@ -45,6 +47,7 @@ body{
   border-radius: 30px;
   cursor: pointer;
 }
+
 .butM:hover{
   background-color: #5FCDD9;
   color: #172026;
@@ -77,4 +80,28 @@ body{
 .ano{
   color: white;
   margin-left: 25px;
+}
+
+.butMNLH{
+  font-size: 17px;
+  text-align: center;
+  height: 55px;
+  border: none;
+  width: 170px;
+  color: #027373;
+  background-color: #172026;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.butMNLH:hover{
+  background-color: #5FCDD9;
+  color: #172026;
+  transition: 1s;
+}
+
+.t2{
+  font-size: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
 }
