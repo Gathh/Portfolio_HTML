@@ -44,15 +44,15 @@ body{
   border: none;
   width: 600px;
   color: #172026;
-  background-color: #027373;
+  background-color: #5FCDD9;
   border-radius: 30px;
   cursor: pointer;
   transition: 1s;
 }
 
 .butM:hover{
-  background-color: #5FCDD9;
-  color: #172026;
+  background-color: #027373;
+  color: #5FCDD9;
 }
 
 .t1{
@@ -97,7 +97,7 @@ body{
   height: 55px;
   border: none;
   width: 170px;
-  color: #027373;
+  color: #5FCDD9;
   background-color: #172026;
   border-radius: 30px;
   cursor: pointer;
@@ -110,6 +110,7 @@ body{
 }
 
 .t2{
+  color: #5FCDD9;
   font-size: 30px;
   margin-left: 25px;
   margin-top: 20px;
@@ -141,9 +142,10 @@ a{
 .bs{
   cursor: pointer;
   flex-direction: column;
+  margin-right: 150px;
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   border: none;
   background: none;
 }
@@ -187,4 +189,11 @@ a{
   margin-right: 40px;
   display: flex;
   flex-direction: column;
+}
+
+.trabalhos{
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 10%;
+  color: #5FCDD9;
 }
