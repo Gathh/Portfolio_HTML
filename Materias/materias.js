@@ -27,7 +27,7 @@
     window.location.href="./paginas/linguagens.html"
   }
 
-  function funcaoHist() {
+  function funcaoHum() {
     console.log("Botão 7 foi clicado!");
     window.location.href="./paginas/historia.html"
   }

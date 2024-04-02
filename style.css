@@ -24,16 +24,16 @@ body{
   height: 55px;
   border: none;
   width: 170px;
-  color: #027373;
+  color: #5FCDD9;
   background-color: #172026;
   border-radius: 30px;
   cursor: pointer;
+  transition: 1s;
 }
 
 .but:hover{
   background-color: #5FCDD9;
   color: #172026;
-  transition: 1s;
 }
 
 .butM{
@@ -47,18 +47,23 @@ body{
   background-color: #027373;
   border-radius: 30px;
   cursor: pointer;
+  transition: 1s;
 }
 
 .butM:hover{
   background-color: #5FCDD9;
   color: #172026;
-  transition: 0.5s;
 }
 
 .t1{
+  color: #5FCDD9;
   font-size: 20px;
   margin-left: 25px;
   margin-top: 20px;
+}
+
+.SM{
+  font-size: 30px;
 }
 
 .divimage{
@@ -71,9 +76,11 @@ body{
 .paragrafo{
   font-size: 23px;
   width: 60%;
+  color: #5FCDD9;
 }
 
 .image{
+  border-radius: 20px;
   height: 400px;
   margin-right: 200px;
   border: 5px solid #5FCDD9;
@@ -94,12 +101,12 @@ body{
   background-color: #172026;
   border-radius: 30px;
   cursor: pointer;
+  transition: 1s;
 }
 
 .butMNLH:hover{
   background-color: #5FCDD9;
   color: #172026;
-  transition: 1s;
 }
 
 .t2{
@@ -130,6 +137,7 @@ a{
 }
 
 .t3{
+  color: #5FCDD9;
   display: flex;
   flex-direction: column;
 }
@@ -154,18 +162,19 @@ a{
   cursor: pointer;
   border: 3px solid #5FCDD9;
   background-color: #172026;
-  color: #027373;
+  color: #5FCDD9;
   border-radius: 10px;
   margin-left: 165px;
   font-size: 20px;
   width: 200px;
   height: 40px;
+  transition: 1s;
 }
 
 .downloadc:hover{
+  border-color: #172026;
   background-color: #5FCDD9;
   color: #172026;
-  transition: 1s;
 }
 
 .div_icons{
