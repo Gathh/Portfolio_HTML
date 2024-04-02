@@ -22,8 +22,3 @@ function funcaoHome() {
     console.log("Botão 5 foi clicado!")
     window.open("https://www.linkedin.com/in/rafagath-klug-11122a269/")
   } 
-
-  //function funcaoMail(){
-   // console.log("Botão 6 foi clicado!")
-   // window.location.href="mailto:rafagmk@gmail.com"
-  //}
