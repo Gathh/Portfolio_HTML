@@ -12,3 +12,4 @@ function funcaoSobre() {
   console.log("Botão 3 foi clicado!");
   window.location.assign('Sobre/sobre.html');
 }
+
