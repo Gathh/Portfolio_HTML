@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -12,28 +14,28 @@ body{
 }
 
 .barraSuperior{
-  background-color: #027373;
-  height: 60px;
+  background-color: #1c2830;
+  height: 64px;
   text-align: left;
-  padding: 10px;
+  padding: 1px;
 }
 
 .but{
   font-size: 18px;
   text-align: center;
-  height: 55px;
-  border: none;
+  height: 64px;
+  border-color: #02737300;
+  border-style: ridge;
   width: 170px;
   color: #5FCDD9;
-  background-color: #172026;
-  border-radius: 30px;
+  background-color: #1c2830;
   cursor: pointer;
   transition: 1s;
 }
 
 .but:hover{
-  background-color: #5FCDD9;
-  color: #172026;
+  border-color: #5FCDD9;
+  color: #5FCDD9;
 }
 
 .butM{
@@ -63,7 +65,7 @@ body{
 }
 
 .SM{
-  font-size: 30px;
+  font-size: 50px;
   text-align: justify;
 }
 
@@ -75,10 +77,14 @@ body{
 }
 
 .paragrafo{
-  font-size: 20px;
+  font-size: 18px;
   width: 60%;
   color: #5FCDD9;
   text-align: justify;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .image{
@@ -86,7 +92,17 @@ body{
   height: 400px;
   margin-right: 100px;
   border: 5px solid #5FCDD9;
+  animation: go-back 4s infinite alternate;  
 } 
+
+@keyframes go-back {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 
 .ano{
   color: white;
@@ -203,12 +219,12 @@ a{
 .but2{
   font-size: 18px;
   text-align: center;
-  height: 55px;
-  border: none;
+  height: 64px;
   width: 170px;
-  color: #172026;
-  background-color: #5FCDD9;
-  border-radius: 30px;
+  color: #5FCDD9;
+  background-color: #5fcdd900;
+  border-color: #5FCDD9;
+  border-style: ridge;
   cursor: pointer;
   transition: 1s;
 }
