@@ -13,3 +13,7 @@ function funcaoSobre() {
   window.location.assign('Sobre/sobre.html');
 }
 
+function funcaoPPE() {
+  console.log("Botão 9 foi clicado!");
+  window.location.href="../PPE/ppe.html" 
+}

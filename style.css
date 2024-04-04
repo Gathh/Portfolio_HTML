@@ -199,3 +199,16 @@ a{
   margin-left: 10%;
   color: #5FCDD9;
 }
+
+.but2{
+  font-size: 18px;
+  text-align: center;
+  height: 55px;
+  border: none;
+  width: 170px;
+  color: #172026;
+  background-color: #5FCDD9;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 1s;
+}

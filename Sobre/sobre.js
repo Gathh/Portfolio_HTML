@@ -1,4 +1,4 @@
-function funcaoHome() {
+  function funcaoHome() {
     console.log("Botão 1 foi clicado!");
     window.location.assign('../index.html');
   }
@@ -22,3 +22,8 @@ function funcaoHome() {
     console.log("Botão 5 foi clicado!")
     window.open("https://www.linkedin.com/in/rafagath-klug-11122a269/")
   } 
+
+    function funcaoPPE() {
+    console.log("Botão 9 foi clicado!");
+    window.location.href="../PPE/ppe.html" 
+  }
