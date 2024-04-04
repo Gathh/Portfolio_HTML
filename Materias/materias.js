@@ -34,7 +34,12 @@
 
   function funcaoVoltar() {
     console.log("Botão 8 foi clicado!");
-    window.location.href="../materias.html" 
+    window.location.href="materias.html" 
+  }
+  
+  function funcaoVoltar2() {
+    console.log("Botão 8 foi clicado!");
+    window.location.href="../materias1.html" 
   }
 
   function funcaoPPE() {
@@ -45,4 +50,9 @@
   function funcaoPPE() {
     console.log("Botão 9 foi clicado!");
     window.location.href="../PPE/ppe.html" 
+  }
+
+  function funcao1() {
+    console.log("Botão 9 foi clicado!");
+    window.location.href="materias1.html" 
   }
