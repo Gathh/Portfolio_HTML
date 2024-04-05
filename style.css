@@ -15,9 +15,16 @@ body{
 
 .barraSuperior{
   background-color: #1c2830;
-  height: 64px;
+  height: 64;
   text-align: left;
-  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.top2{
+  gap: 30px;
+  margin-right: 30px;
 }
 
 .but{
@@ -160,12 +167,14 @@ a{
 .bs{
   cursor: pointer;
   flex-direction: column;
-  margin-right: 150px;
+  
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 45px;
+  width: fit-content;
   border: none;
   background: none;
+  display: flex;
+  
 }
 
 .curriculo_title{
@@ -203,10 +212,7 @@ a{
 }
 
 .div_b_sobre{
-  gap: 10px;
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .trabalhos{
@@ -224,6 +230,20 @@ a{
   color: #5FCDD9;
   background-color: #5fcdd900;
   border-color: #5FCDD9;
+  border-style: ridge;
+  cursor: pointer;
+  transition: 1s;
+}
+.but3{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 200px;
+  height: fit-content;
+  width: fit-content;
+  color: #5FCDD9;
+  margin: auto;
+  background-color: #5fcdd900;
+  border-color: #5fcdd900;
   border-style: ridge;
   cursor: pointer;
   transition: 1s;
