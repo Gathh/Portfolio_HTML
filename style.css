@@ -211,10 +211,6 @@ a{
   margin-left: 30px;
 }
 
-.div_b_sobre{
-  
-}
-
 .trabalhos{
   max-width: 100%;
   margin-top: 40px;
@@ -234,6 +230,7 @@ a{
   cursor: pointer;
   transition: 1s;
 }
+
 .but3{
   font-size: 18px;
   text-align: center;
