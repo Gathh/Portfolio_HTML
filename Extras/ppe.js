@@ -31,4 +31,4 @@ function funcaoGithub(){
 function funcaoLinkedin(){
   console.log("Botão 5 foi clicado!")
   window.open("https://www.linkedin.com/in/rafagath-klug-11122a269/")
-} 
+}

@@ -300,3 +300,8 @@ a{
 .dropdown:hover .dropbtn {
   background-color: #dddddd00;
 }
+
+.div-image-certificado{
+  width: 700px;
+  height: 500px;
+}
