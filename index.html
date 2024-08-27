@@ -81,31 +81,31 @@
       &nbsp;&nbsp;&nbsp;&nbsp;<img class="image" src="./imgs/avatar.png" alt="Avatar">
     </div>
     <button class="download-btn" id="downloadCurr">Download do Curriculo</button>
-  </div>
+</div>
 
-  <div><br>
-    <a class="ano" target="_blank"
-      href="https://www.canva.com/design/DAE8pANQaMw/7XZRPQ2VbYwm3SHMKnIv8g/edit?utm_content=DAE8pANQaMw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-      Portfólio 1° Ano
-    </a> &nbsp;&nbsp;
-    <a class="ano" target="_blank"
-      href="https://www.canva.com/design/DAFcs96imUs/KmnHkW0GXuKpsKLSStm3-g/edit?utm_content=DAFcs96imUs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-      Portfólio 2° Ano
-    </a>
-  </div>
+<div><br>
+  <a class="ano" target="_blank"
+    href="https://www.canva.com/design/DAE8pANQaMw/7XZRPQ2VbYwm3SHMKnIv8g/edit?utm_content=DAE8pANQaMw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    Portfólio 1° Ano
+  </a> &nbsp;&nbsp;
+  <a class="ano" target="_blank"
+    href="https://www.canva.com/design/DAFcs96imUs/KmnHkW0GXuKpsKLSStm3-g/edit?utm_content=DAFcs96imUs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    Portfólio 2° Ano
+  </a>
+</div>
 
-  <script>
-    document.getElementById('downloadCurr').addEventListener('click', function () {
-      const filePath = '../imgs/Curriculo.png';
-      const a = document.createElement('a');
-      a.href = filePath;
-      a.download = 'Curriculo.png';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    });
-  </script>
-  <script src="script.js"></script>
+<script>
+  document.getElementById('downloadCurr').addEventListener('click', function () {
+    const filePath = './imgs/Curriculo.png';
+    const a = document.createElement('a');
+    a.href = filePath;
+    a.download = 'Curriculo.png';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+</script>
+<script src="script.js"></script>
 </body>
 
 </html>
