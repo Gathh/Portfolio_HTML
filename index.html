@@ -80,6 +80,7 @@
       </p>
       &nbsp;&nbsp;&nbsp;&nbsp;<img class="image" src="./imgs/avatar.png" alt="Avatar">
     </div>
+    <button class="download-btn" id="downloadCurr">Download do Curriculo</button>
   </div>
 
   <div><br>
@@ -93,6 +94,17 @@
     </a>
   </div>
 
+  <script>
+    document.getElementById('downloadCurr').addEventListener('click', function () {
+      const filePath = '../imgs/Curriculo.png';
+      const a = document.createElement('a');
+      a.href = filePath;
+      a.download = 'Curriculo.png';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  </script>
   <script src="script.js"></script>
 </body>
 
