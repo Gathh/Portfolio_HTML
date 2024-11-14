@@ -62,6 +62,26 @@
 
   <h1 class="t2">Certificados</h1>
 
+  <div class="trabalhos">
+    <div>
+      <img class="div-image-certificado" src="../imgs/Certificado.png" alt="CertificadoRafagath" srcset="">
+      <img class="div-image-certificado" src="../imgs/CertificadoParteTraz.png" alt="CertificadoRafagathTraz" srcset="">
+    </div><br>
+    <button class="download-btn" id="downloadBtn">Download do Certificado</button>
+  </div>
+
+  <script>
+    document.getElementById('downloadBtn').addEventListener('click', function () {
+      const filePath = '../imgs/Certificado.pdf';
+      const a = document.createElement('a');
+      a.href = filePath;
+      a.download = 'Certificado.pdf';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  </script>
+
 </body>
 
 </html>
