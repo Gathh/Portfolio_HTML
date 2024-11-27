@@ -85,8 +85,8 @@
         repos.forEach(repo => {
           const listItem = document.createElement('li'); // Cria um item de lista para cada repositório
           listItem.innerHTML = `
-                    <a href="${repo.html_url}" target="_blank">${repo.name}</a> // Link para o repositório no GitHub
-                    <p>${repo.description || 'Sem descrição'}</p> // Descrição do repositório ou texto padrão se não houver descrição
+                    <a href="${repo.html_url}" target="_blank">${repo.name}</a> 
+                    <p>${repo.description || 'Sem descrição'}</p> 
                 `;
           repoList.appendChild(listItem); // Adiciona o item de lista à lista de repositórios
         });
