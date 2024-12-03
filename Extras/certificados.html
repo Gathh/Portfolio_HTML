@@ -72,6 +72,39 @@
     <button class="download-btn" id="downloadBtn">Download do Certificado</button>
   </div>
 
+  <div class="trabalhos">
+    <div>
+      <img class="div-image-certificado2" src="../imgs/certificadocanvas.png" alt="CertificadoRafagathCanvas" srcset="">
+      <img class="div-image-certificado2" src="../imgs/certificadomt.png" alt="CertificadoRafagathMT" srcset="">
+    </div><br>
+    <button class="download-btn" id="downloadBtnc">Download do Certificado Canvas</button>
+    <button class="download-btn" id="downloadBtnmt">Download do Certificado Mercado de Trabalho</button>
+  </div>
+
+  <script>
+    document.getElementById('downloadBtnc').addEventListener('click', function () {
+      const filePath = '../imgs/Certificadocanvas.pdf';
+      const a = document.createElement('a');
+      a.href = filePath;
+      a.download = 'Certificadoc.pdf';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  </script>
+
+<script>
+  document.getElementById('downloadBtnmt').addEventListener('click', function () {
+    const filePath = '../imgs/Certificadomt.pdf';
+    const a = document.createElement('a');
+    a.href = filePath;
+    a.download = 'Certificadomt.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+</script>
+
   <script>
     document.getElementById('downloadBtn').addEventListener('click', function () {
       const filePath = '../imgs/Certificado.pdf';
@@ -84,6 +117,7 @@
     });
   </script>
 
+<script src="../Tecnico/tecnico.js"></script>
 </body>
 
 </html>
