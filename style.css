@@ -72,7 +72,7 @@ body{
 }
 
 .SM{
-  font-size: 50px;
+  font-size: 70px;
   text-align: justify;
 }
 
@@ -84,7 +84,7 @@ body{
 }
 
 .paragrafo{
-  font-size: 18px;
+  font-size: 23px;
   width: 60%;
   color: #5FCDD9;
   text-align: justify;
@@ -325,6 +325,8 @@ a{
 }
 
 .paragrafoh{
+  text-align: left;
+  font-size: 25px;
   margin-right: 500px;
   color: #5FCDD9;
 }
@@ -345,4 +347,8 @@ a{
   border-radius: 15px; 
   padding: 10px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.figmaprojetos{
+  text-align: center;
 }
